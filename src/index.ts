@@ -1,4 +1,16 @@
-import {MaClasse} from "./MaClasse";
+import {Chat} from "./Chat";
+import {Chien} from "./Chien";
+import {Mouton} from "./Mouton";
+import {Cheval} from "./Cheval";
 
-let monInstance = new MaClasse()
-monInstance.info()
+let monChat = new Chat();
+let monChien = new Chien();
+let monCheval = new Cheval();
+let monMouton = new Mouton();
+
+monChat.manger();
+monChien.manger()
+monCheval.manger();
+monMouton.manger();
+
+
