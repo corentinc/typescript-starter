@@ -9,4 +9,8 @@ export class Mouton extends Animal {
     protected crier() {
         console.log('beeeeeeh')
     }
+
+    type(): string {
+        return "mouton";
+    }
 }

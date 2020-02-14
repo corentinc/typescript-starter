@@ -10,4 +10,8 @@ export class Chien extends Animal {
     protected crier(): void {
         console.log('Waf waf')
     }
+
+    type(): string {
+        return "chien";
+    }
 }

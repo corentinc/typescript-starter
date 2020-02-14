@@ -9,4 +9,9 @@ export class Chat extends Animal {
     protected crier(): void {
         console.log('Miaouuu')
     }
+
+    type(): string{
+        return "chat"
+    }
+
 }

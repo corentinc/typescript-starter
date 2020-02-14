@@ -9,4 +9,8 @@ export class Cheval extends Animal {
     protected crier(): void {
         console.log("Heeeennnniiii")
     }
+
+    type(): string {
+        return "cheval";
+    }
 }

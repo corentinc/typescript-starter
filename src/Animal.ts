@@ -9,7 +9,9 @@ export abstract class Animal {
         this.energie = energie;
     }
 
-    protected abstract crier(): void;
+    protected abstract crier();
+
+    abstract type(): string;
 
     public jouer() : void {
         this.humeur++;
